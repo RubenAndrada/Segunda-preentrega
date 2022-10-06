@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="./Css/estilo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="grid">
     <header>
-        <div class="logo">
+        <div class="logo"  id="boca">
             <a href="./index.html">
                 <img src="./img/sportswear (1).png" alt="Logo sitio">
             </a>
@@ -24,35 +29,39 @@
             <ul class="menu">
                 <li class="item"><a href="./views/mujer.html">Mujer</a>
                     <ul class="submenu">
-                        <li class="sub_i"><a href="./views/RRHH.html">Calzado</a></li>
-                        <li class="sub_i"><a href="./views/empresa.html">Ropa</a></li>
-                        <li class="sub_i"><a href="./views/medioambiente.html">Accesorios</a></li>
-                        <li class="sub_i"><a href="./views/empresa.html">Deportes</a></li>
+                        <li class="sub_i"><a href="./views/calzadomujer.html">Calzado</a></li>
+                        <li class="sub_i"><a href="./views/ropamujer.html">Ropa</a></li>
+                        <li class="sub_i"><a href="./views/accesoriomujer.html">Accesorios</a></li>
+                        
                     </ul>
                 </li>
                         
                 <li class="item"><a href="./views/hombre.html">Hombre</a>
                     <ul class="submenu">
-                        <li class="sub_i"><a href="./views/RRHH.html">Calzado</a></li>
-                        <li class="sub_i"><a href="./views/empresa.html">Ropa</a></li>
-                        <li class="sub_i"><a href="./views/medioambiente.html">Accesorios</a></li>
-                        <li class="sub_i"><a href="./views/empresa.html">Deportes</a></li>
+                        <li class="sub_i"><a href="./views/calzadohombre.html">Calzado</a></li>
+                        <li class="sub_i"><a href="./views/ropahombre.html">Ropa</a></li>
+                        <li class="sub_i"><a href="./views/accesoriohombre.html">Accesorios</a></li>
+                        
                     </ul>
                 </li>
                 <li class="item"><a href="./views/ninos.html">Niños</a>
                     <ul class="submenu">
-                        <li class="sub_i"><a href="./views/RRHH.html">Calzado</a></li>
-                        <li class="sub_i"><a href="./views/empresa.html">Ropa</a></li>
-                        <li class="sub_i"><a href="./views/medioambiente.html">Accesorios</a></li>
-                        <li class="sub_i"><a href="./views/empresa.html">Deportes</a></li>
+                        <li class="sub_i"><a href="./views/calzadoninos.html">Calzado</a></li>
+                        <li class="sub_i"><a href="./views/ropaninos.html">Ropa</a></li>
+                        <li class="sub_i"><a href="./views/accesorioninos.html">Accesorios</a></li>
+                        
                     </ul>
                 </li>
-                    
+                <li class="item"><a href="./views/deporte.html">Deporte</a></li>
                 <li class="item"><a href="./views/contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
-    
+    <div class="flecha1">
+        <a href="#boca">
+            <img src="./img/flechaarriba.png" alt="flecha">
+        </a>
+    </div>
     <section class="section1">
         <div>
             <img src="./img/boca river.jpg" alt="boca vs river">
@@ -63,6 +72,8 @@
         <div>
             <H1>Vivi tu SuperClasico en Sportswear</H1>
             <p>Nuevas camisetas alternativas de River Plate y Boca Juniors, inspiradas en diseños y equipos icónicos</p>
+            <button type="button" class="btn btn-secondary btn-sm"> <a href="./views/mujer.html"> <h4> conseguí la tuya</h4> </a></button>
+            
 
         </div>
     </section>
@@ -82,6 +93,43 @@
                 <a href="./views/ninos.html"><p>Niños</p></a>
             </div>
         </div>
+        <div class="contenido" data-aos="fade-left"> 
+            <div>
+                <img src="./img/correr.jpg" alt="correr">
+            </div>
+            <div class="comentario">
+                <p>
+                    Muchas veces nos preocupamos demasiado por qué zapatillas llevar, del reloj GPS o de los auriculares para hacer deporte, y dejamos de lado, olvidado, uno de los aspectos más importantes en el running y que más nos puede hacer mejorar, cómo respirar al correr.
+                    
+                </p>
+                <div class="boton">
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text"><a href="#">Ver mas</a></span>
+                  </button>
+                </div>
+            </div>
+        </div>
+        <div class="futbolinicio" data-aos="fade-right">
+            <div class="comentario1">
+                <p>
+                    Una de las decisiones más difíciles cuando juegas a fútbol es el momento de colgar los botines, pero aún hay un momento bastante complejo y que puede ser determinante, es el momento de elegir unos botines.
+                </p>
+                <div class="boton">
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                    <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text"><a href="#">Ver mas</a></span>
+                  </button>
+                </div>
+            </div>
+            <div>
+                <img src="./img/futbolinicio.jpg" alt="futbol">
+            </div>
+        </div>
     </section>
     
     <footer>
@@ -93,6 +141,11 @@
 	    <a href="https://www.linkedin.com/in/ruben-andrada-00b696131/" target="_BLANK"><img src="./img/LinkedIn.png" width="50px" alt="LinkedIn"></a>
         </div>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
