@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0%;
   padding: 0%;
@@ -398,15 +399,81 @@ header nav .menu .item:hover .submenu {
   padding-left: 100px;
 }
 
+.section2 {
+  background-image: url(../img/img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+.section2 h2 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.section3 {
+  background-image: url(../img/ninosportada\ \(2\).png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+.section3 h2 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.section4 {
+  background-image: url(../img/mujer\ ropa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+.section4 h2 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.section5 {
+  background-image: url(../img/niñosropa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+.section5 h2 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.section6 {
+  background-image: url(../img/hombreropa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+.section6 h2 {
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
 .mujer {
+  width: 100%;
   display: block;
 }
-.mujer .calzados {
-  border: 1px red solid;
+.mujer .tarjeta {
+  border-top: 2px black solid;
   width: 100%;
   height: 1200px;
 }
-.mujer .calzados .container-1 {
+.mujer .tarjeta .container-1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -415,7 +482,7 @@ header nav .menu .item:hover .submenu {
   height: 430px;
   margin: auto;
 }
-.mujer .calzados .container-1 .card-1 {
+.mujer .tarjeta .container-1 .card-1 {
   width: 230px;
   height: 330px;
   border-radius: 8px;
@@ -425,18 +492,18 @@ header nav .menu .item:hover .submenu {
   text-align: center;
   transition: all 0.2s;
 }
-.mujer .calzados .container-1 .card-1 h3 {
+.mujer .tarjeta .container-1 .card-1 h3 {
   font-size: 1.5rem;
 }
-.mujer .calzados .container-1 .card-1 p {
+.mujer .tarjeta .container-1 .card-1 p {
   font-size: 1.2rem;
 }
-.mujer .calzados .container-1 .card-1 img {
+.mujer .tarjeta .container-1 .card-1 img {
   width: 230px;
   height: 250px;
   align-items: center;
 }
-.mujer .calzados .container-1 .card-1 a {
+.mujer .tarjeta .container-1 .card-1 a {
   font-weight: bolder;
   text-decoration: none;
   color: black;
@@ -444,96 +511,23 @@ header nav .menu .item:hover .submenu {
   padding-bottom: 5px;
   transition: all 300ms ease;
 }
-.mujer .calzados .container-1 .card-1:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.mujer .ropa {
-  border: 1px red solid;
-  width: 100%;
-  height: 1200px;
-}
-.mujer .ropa .container-1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  max-width: 1200px;
-  height: 430px;
-  margin: auto;
-}
-.mujer .ropa .container-1 .card-1 {
-  width: 230px;
-  height: 330px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.2s;
-}
-.mujer .ropa .container-1 .card-1 h3 {
-  font-size: 1.5rem;
-}
-.mujer .ropa .container-1 .card-1 p {
-  font-size: 1.2rem;
-}
-.mujer .ropa .container-1 .card-1 img {
-  width: 230px;
-  height: 250px;
-  align-items: center;
-}
-.mujer .ropa .container-1 .card-1 a {
-  font-weight: bolder;
-  text-decoration: none;
-  color: black;
-  font-size: 1.3rem;
-  padding-bottom: 5px;
-  transition: all 300ms ease;
-}
-.mujer .ropa .container-1 .card-1:hover {
+.mujer .tarjeta .container-1 .card-1:hover {
   transform: translateY(-15px);
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
-.accesorios {
-  border: 1px red solid;
-  width: 100%;
-  height: 1200px;
-}
-.accesorios .container-1 {
+.formulario {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  max-width: 1200px;
-  height: 430px;
-  margin: auto;
-}
-.accesorios .container-1 .card-1 {
-  width: 230px;
-  height: 330px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  text-align: center;
-  transition: all 0.2s;
-}
-.accesorios .container-1 .card-1 img {
-  width: 130px;
-  height: 180px;
   align-items: center;
+  justify-content: center;
+  border: 1px rgb(5, 5, 5) solid;
+  width: 100%;
+  height: 500px;
 }
-.accesorios .container-1 .card-1 a {
-  font-weight: bolder;
-  text-decoration: none;
-  color: black;
-  font-size: 1.3rem;
-  padding-bottom: 5px;
-  transition: all 300ms ease;
-}
-.accesorios .container-1 .card-1:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+.formulario .formulario1 {
+  border: 1px red solid;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
 }/*# sourceMappingURL=estilo.css.map */
