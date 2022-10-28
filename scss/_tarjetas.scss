@@ -135,4 +135,38 @@
     
     
 }
+@media screen and (max-width: 1090px){
 
+    .mujer{
+        width: 100%;
+        display: block;
+        .tarjeta{
+            border-top: 2px black solid;
+            width: 100%;
+            height: 1600px;
+        }
+    }
+}
+@media screen and (max-width: 821px){
+
+    .mujer{
+        width: 100%;
+        display: block;
+        .tarjeta{
+            border-top: 2px black solid;
+            width: 100%;
+            height: 2300px;
+        }
+    }
+}
+@media screen and (max-width: 550px){
+    .mujer{
+        width: 100%;
+        display: block;
+        .tarjeta{
+            border-top: 2px black solid;
+            width: 100%;
+            height: 4500px;
+        }
+    }
+}

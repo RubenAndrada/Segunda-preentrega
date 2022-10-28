@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 2fr 2fr;
   grid-template-rows: auto auto auto auto;
   grid-template-areas: "header header" "section1 section2" "section3 section3" "footer footer";
   gap: 1px;
@@ -21,6 +21,7 @@ header {
   display: flex;
   padding: 0 50px;
   border-bottom: 1px solid black;
+  width: 100%;
 }
 header .logo a img {
   height: 100px;
@@ -74,6 +75,7 @@ header nav .menu .item .submenu .sub_i {
   display: block;
   padding: auto;
   font-size: 1rem;
+  position: relative;
 }
 header nav .menu .item:hover a {
   color: rgb(94, 90, 90);
@@ -515,6 +517,39 @@ header nav .menu .item:hover .submenu {
   box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
 
+@media screen and (max-width: 1090px) {
+  .mujer {
+    width: 100%;
+    display: block;
+  }
+  .mujer .tarjeta {
+    border-top: 2px black solid;
+    width: 100%;
+    height: 1600px;
+  }
+}
+@media screen and (max-width: 821px) {
+  .mujer {
+    width: 100%;
+    display: block;
+  }
+  .mujer .tarjeta {
+    border-top: 2px black solid;
+    width: 100%;
+    height: 2300px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mujer {
+    width: 100%;
+    display: block;
+  }
+  .mujer .tarjeta {
+    border-top: 2px black solid;
+    width: 100%;
+    height: 4500px;
+  }
+}
 .formulario {
   display: flex;
   align-items: center;
@@ -529,4 +564,155 @@ header nav .menu .item:hover .submenu {
   height: 300px;
   padding: 20px;
   border-radius: 10px;
+}
+
+@media screen and (max-width: 1141px) {
+  header {
+    width: 100%;
+    display: block;
+    align-items: center;
+  }
+  header .logo {
+    padding-left: 300px;
+  }
+  .flecha1 {
+    width: 300px;
+    position: fixed;
+    bottom: 30px;
+    right: -100px;
+  }
+  .section3 {
+    background-color: rgb(255, 255, 255);
+    grid-area: section3;
+    display: block;
+    border: #cc0202 1px solid;
+    height: auto;
+  }
+  .section3 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+  .section3 .contenido {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .section3 .contenido .imgcorrer {
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+  }
+  .section3 .contenido .comentario {
+    display: inline-block;
+    align-items: center;
+    width: auto;
+  }
+  .section3 .futbolinicio {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .section3 .futbolinicio .comentario1 {
+    width: auto;
+    display: inline-block;
+    align-items: center;
+  }
+  .section3 .futbolinicio .imgcorrer {
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-template-areas: "header" "section1" "section2" "section3" "footer";
+    gap: 1px;
+  }
+  header {
+    display: inline-block;
+  }
+  header .logo {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 100px;
+  }
+  header nav .menu {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .flecha1 {
+    width: 300px;
+    position: fixed;
+    bottom: 30px;
+    right: -100px;
+  }
+  .section3 {
+    background-color: rgb(255, 255, 255);
+    grid-area: section3;
+    display: block;
+    height: auto;
+  }
+  .section3 .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+  }
+  .section3 .contenido {
+    display: block;
+    width: 100%;
+    height: auto;
+    align-items: center;
+  }
+  .section3 .contenido .imgcorrer {
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+  }
+  .section3 .contenido .comentario {
+    display: inline-block;
+    align-items: center;
+    width: auto;
+  }
+  .section3 .futbolinicio {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .section3 .futbolinicio .comentario1 {
+    width: auto;
+    display: inline-block;
+    align-items: center;
+  }
+  .section3 .futbolinicio .imgcorrer {
+    width: auto;
+    height: auto;
+    padding-left: 70px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .contenedor {
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr auto auto auto;
+    grid-template-areas: "header" "contenido" "sidebar" "caja1" "caja2" "footer";
+  }
+  .header {
+    background: #cc0202;
+    color: rgb(0, 255, 13);
+    height: 50px;
+  }
 }/*# sourceMappingURL=estilo.css.map */
